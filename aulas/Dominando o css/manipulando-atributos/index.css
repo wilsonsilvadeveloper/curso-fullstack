@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*a[href="https://google.com"] {
+    background-color: yellow;
+}*/
+
+/*[href="https://google.com"] {
+    background-color: red;
+}*/
+
+/*a[href*="google"], a[href*="danki"] {
+    background-color: blue;
+}*/
+
+/*a[attr~="google"] {
+    background-color: blue;
+}*/
+
+/*a[attr|="google"] {
+    background-color: yellow;
+}*/
+
+/*a[attr^="goo"] {
+    background-color: red;
+}*/
+
+/*
+a[attr$="google"] {
+    background-color: yellow;
+}*/
+
+.text[type="text"] {
+    background-color: green;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: blue;
+}

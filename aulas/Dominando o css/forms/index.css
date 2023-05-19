@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+form {
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form fieldset {
+    padding:20px 40px;
+    border: 1px solid #ccc;
+}
+
+form legend {
+    text-align: left;
+    font-size: 17px;
+    color: grey;
+}
+
+input[type=text] {
+    display: inline-block;
+    margin-top: 40px;
+    width: 80%;
+    padding: 10px 13px;
+    outline: none;
+    color: white;
+    border: 1px solid black;
+}
+
+form input[type=text]:focus, form select:focus {
+    outline: 0;
+}
+
+form select {
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    appearance: none;
+}
+
+form select option:disabled {
+    color:  red;
+}
+
+.input {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.input span {
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type='file'] {
+    display: none;
+}
+
+form label {
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+form textarea {
+    width: 80%;
+    resize: none;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: Tahoma;
+}
+
+form input[type='submit'] {
+    width: 140px;
+    height: 40px;
+    border: 0;
+    margin-top: 20px;
+    background-color: rgb(140, 140, 140);
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.teste, .teste1, .teste2 {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+.teste1 {
+    background-color: rgb(98, 98, 98);
+}
+
+.teste2 {
+    background-color: rgb(50, 50, 50);
+}
+
+.teste:hover, .teste1, .teste2 {
+    vertical-align: top;
+}
+
+.link1 {
+    color: blue;
+    display: block;
+}
+
+/* Pseudo classes */
+
+.teste:hover{ /*Enquanto o mouse estiver em cima do elemento*/
+    height: 600px;
+    background-color: blue;
+}
+
+.teste:active { /*Enquanto o mouse estiver pressionando o elemento*/
+    background-color: black;
+}
+
+.input:focus { /*Enquanto o elemento estiver em foco, serve somente para formulario*/
+    background-color: red;
+}
+
+.link1:visited {
+    color: purple;
+}
+
+.link1:link {
+    color: red;
+}

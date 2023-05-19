@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Meu Formulario</legend>
+        <div>
+          <input type="text" name="nome" placeholder="digite o seu nome" />
+        </div>
+        <div>
+          <input type="text" name="email" placeholder="digite o seu email" />
+        </div>
+        <div>
+          <select name="lista" id="lista">
+            <option disabled selected value="">qual sua idade</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select>
+        </div>
+        <h2>Qual sua cidade?</h2>
+        <div class="input">
+          <div>
+            <input type="radio" name="cidade" value="bela vista" /><span>bela vista</span>
+          </div>
+          <div>
+            <input type="radio" name="cidade" value="sao paulo" /><span>são paulo</span>
+          </div>
+          <div>
+            <input type="radio" name="cidade" value="santa ines" /><span>santa ines</span>
+          </div>
+          <div>
+            <input type="radio" name="cidade" value="rio de janeiro" /><span>rio de janeiro</span>
+          </div>
+        </div>
+
+        <h2>O que você gosta de comer?</h2>
+        <div class="input">
+          <div>
+            <input type="checkbox" name="comida[]" value="fruta" /><span>fruta</span>
+          </div>
+          <div>
+            <input type="checkbox" name="comida[]" value="fast food" /><span>fast foof</span>
+          </div>
+          <div>
+            <input type="checkbox" name="comida[]" value="salada" /><span>salada</span>
+          </div>
+        </div>
+        <div>
+          <input id="file" type="file" name="file">
+          <label for="file">Clique aqui</label>
+        </div>
+        <div>
+         <textarea placeholder="diga mais sobre você" cols="30" name="sobre" rows="10"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" name="acao" value="Enviar">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

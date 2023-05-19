@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Fonte Local*/
+@font-face {
+    src: url(fonte-local/static/OpenSans-Light.ttf);
+    font-family: 'minha fonte';
+}
+
+html, body{
+    height: 100%;
+    font-family: 'minha fonte';
+}
+
+.box > .text {
+    font-family: 'minha fonte';
+}
+
+
+/*Font Externa*/
+
+/*
+h2 {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+*/
+
+
+/*
+.text {
+    font-family:Tahoma !important;
+}
+*/
+
+
+form * {
+    font-family: 'minha fonte';
+}

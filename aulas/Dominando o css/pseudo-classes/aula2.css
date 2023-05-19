@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body { 
+    height: 100%;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+/*Pseudo Classes
+
+ul li:nth-of-type(2) { 
+    color: red;
+}
+
+ul li:nth-child(3) {
+    color: blue;
+}
+
+*/
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.itens {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.box > .itens:last-of-type p{
+    color: white;
+}
+
+.box > div:not(.one) { /* aplique a cor dourada a todas as divs que não tenha a classe one*/
+    background-color: gold;
+}
+
+.box > p:empty { /*ataca todos os elementos que estiverem com o conteudo vazio*/
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.box > p:last-of-type::after {
+    color: red;
+    content: ' wilson';
+}
+
+/* pegando o ultimo elemento
+
+.box > div:last-of-type{
+    background-color: green;
+}
+
+.box > p:last-of-type{
+    color: purple;
+}
+
+*/

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.menu {
+    width: 900px;
+    height: 60px;
+    padding: 20px 0;
+    background-color: rgb(16, 12, 12);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu > a {
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2rem;
+    color: green;
+}

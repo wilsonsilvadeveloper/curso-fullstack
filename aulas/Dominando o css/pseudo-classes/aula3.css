@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.parent {
+   width: 100%;
+   padding: 90px 0;
+   text-align: center;
+   background-color: #069;
+}
+
+.itens {
+    display: inline-block;
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/*a cada 2 elementos, aplique o estilo abaixo*/
+.parent div:nth-of-type(2n + 2) > div.itens {
+    background-color: red;
+}
+
+.parent p:first-child {
+    background-color: orange;
+}
+
+.parent > div > .itens:first-of-type {
+    background-color: orange;
+}
