@@ -181,7 +181,7 @@ html, body {
 
 .container-single {
     float: left;
-    width: 33.333%;
+    width: 33.3%;
     padding: 30px;
 }
 
@@ -196,5 +196,12 @@ html, body {
 
 .footer {
     padding: 30px 0;
-    border-top: 4px solid #888888;
+    border-top: 2px solid #888888;
+    font-size: 20px;
+    text-align: center;
+    color: #575757;
+}
+
+.footer p {
+    margin-top: 8px;
 }
