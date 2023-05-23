@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+.clear {
+    clear: both;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+
+.content {
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: #ccc;
+    float: right;
+}
+
+
+.box {
+    width: calc((100% / 3) - 4px);
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+}
+
+*/
+
+/* vw = Viewport width = largura do viewport*/
+/* vh = Viewport heigth = altura do viewport*/
+
+.box {
+    width: 100vw;
+    height: 90px;
+    background-color: red;
+}
+
+/* o vw não leva em consideração o espaço 
+que scrollbar(barra de rolagem) ocupa,
+ou seja, se houver uma barra lateral, 
+dependendo do caso o vw criara uma 
+scrollbar vertical, o mesmo acontece com 
+o vh.*/
+
+
+.box2 {
+    width: 20px;
+    height: 9000px;
+    background-color: #1e0c0c;
+}

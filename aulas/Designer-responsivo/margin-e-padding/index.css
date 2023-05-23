@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    width: 50%;
+    height: 400px;
+    background-color: orange;
+}
+
+.box {
+    display: inline-block;
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 25%;
+    background-color: gray;
+}
+
+/*A porcentagem em margin e padding sempre
+ se baseia na largura do seu elemento pai*/
