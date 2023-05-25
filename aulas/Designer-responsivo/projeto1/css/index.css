@@ -19,15 +19,14 @@ html, body {
 }
 
 .center {
-    width: 1200px;
-    padding: 0 2%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .cabecalho {
-    min-width: 1200px;
     width: 100%;
     height: 60px;
+    padding: 0 2%;
     background-color: #212343;
 }
 
@@ -36,7 +35,7 @@ html, body {
 }
 
 .container-banner {
-    min-width: 1200px;
+    padding: 0 2%;
     width: 100%;
     height: 557px;
     background-image: url('../images/header_bg.png');
@@ -69,6 +68,12 @@ html, body {
 
 .form > form > .inputs-container {
     margin-top: 20px;
+}
+
+.form > form input {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 1%;
 }
 
 .inputs-container span,form  p {
@@ -115,8 +120,8 @@ html, body {
 
 .container-list {
     float: left;
-    width: 619px;
-    height: 290px;
+    width: calc(100% - 500px);
+    min-width: 400px;
     background-color: rgba(33, 35, 67, 0.7);
     margin-top: 100px;
     padding: 10px;
@@ -132,8 +137,7 @@ html, body {
 } 
 
 .container-sessoes {
-    min-width: 1200px;
-    padding: 40px 0;
+    padding: 40px 2%;
     background-color: #DDDDDD;
     text-align: center;
 }
@@ -143,7 +147,8 @@ html, body {
 }
 
 .container-sessoes p {
-    width: 698px;
+    width: 100%;
+    max-width: 768px;
     display: inline-block;
     text-align: justify;
     margin: 15px 0;
@@ -161,7 +166,7 @@ html, body {
 }
 
 .container-sessoes2 {
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 .container-sessoes2 h2 {
@@ -204,4 +209,74 @@ html, body {
 
 .footer p {
     margin-top: 8px;
+}
+
+@media screen and  (max-width: 1024px) {
+    .cabecalho {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .cabecalho img {
+        margin: 0 auto;
+        margin-left: 2%;
+    }
+
+    .container-banner {
+        height: auto;
+        padding: 40px 2%;
+        text-align: center;
+    }
+
+    .container-list {
+        display: inline-block;
+        float: none;
+        width: 90%;
+        max-width: 800px;
+        height: auto;
+        margin-top: 0;
+        padding: 30px 0;
+    }
+
+    .form {
+        max-width: 400px;
+        float: none;
+        display: inline-block;
+        width: 90%;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    .inputs-container input[type='text'] {
+        width: 80%;
+        height: 55px;
+    }
+
+    .inputs-container input[type='submit'] {
+        width: 60%;
+        height: 55px;
+    }
+
+    .container-sessoes p {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho img {
+        margin: 0;
+    }
+
+    .container-single {
+        float: none;
+        display: inline-block;
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
