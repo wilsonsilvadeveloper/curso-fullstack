@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container-site-externo {
+        width: 100%;
+        text-align: center;
+        display: none;
+      }
+      .site-externo {
+        width: 80%;
+        height: 80vh;
+      }
+
+      video {
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-site-externo">
+      <iframe
+        class="site-externo"
+        src="https://dankicode.com"
+        frameborder="0"
+      ></iframe>
+      <!--A tag iframe nos permite trazer um
+    site externo para dentro do nosso site, obs: (nem sempre é
+    possivel trazer um site externo para dentro do nosso site, pois
+    tem sites externos que bloqueiam esse tipo de conexão)-->
+    </div>
+
+    <video controls autoplay loop>
+      <source src="video/ads.mp4" type="video/mp4" />
+    </video>
+    <!--atraves da tag video, podemos exibir videos na nossa pagina, e com a tag source
+    podemos colocar o mesmo video, imagem ou audio varias vezes, mais com 
+    formatos diferentes, pois nem todos os navegadores suportam um formato especifico de video, imagem ou audio.
+    sendo assim, se colocarmos varios formatos de videos, imagens ou audios, o navegador irá escolher
+    o formato de midia que ele suporta melhor-->
+
+
+</body>
+</html>
